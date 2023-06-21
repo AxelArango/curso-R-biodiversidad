@@ -561,3 +561,6 @@ px<- py%<+% migrants + geom_tippoint(aes(color=migratory),shape=15)+
 px+ geom_facet(panel="HWI",data = hwi,geom=geom_col,mapping=aes(x=hwi,color=migratory,fill=migratory),orientation='y')+
     theme_tree2()
 ```
+##
+
+Ahora como ejercicio hagan una filogenia circular azul con los nombres de las especies en algún color de azul.
